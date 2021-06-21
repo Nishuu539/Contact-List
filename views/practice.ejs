@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1> This is the Second Rendering of page where you have to render HTML page from Server....</h1>
+
+        <ul>
+            <% for (let i=0;i<10;i++){ %>
+                <li>
+                    <%= i %>
+                </li>
+           <% } %>
+        </ul>
+
+        <% if (true){ %>
+            <h1> Hi Nishant! you'll Definitely Win...</h1>
+       <% } else{ %>
+        <p> How Could You Fail Nishant???</p>
+    <%}%>
+
+
+    
+    </body>
+</html>
